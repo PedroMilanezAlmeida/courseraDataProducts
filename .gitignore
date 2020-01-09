@@ -1,3 +1,9 @@
+# rsconnect
+rsconnect/*
+rsconnect/
+/rsconnect/
+/rsconnect/*
+
 # Rproj files
 *.Rproj
 

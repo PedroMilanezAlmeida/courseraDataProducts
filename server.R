@@ -1,7 +1,6 @@
 library(shiny)
 library(dplyr)
 library(ggplot2)
-
 shinyServer(function(input, output) {
     seatbelts <- as.data.frame(Seatbelts)
     seatbelts <- mutate(seatbelts,
